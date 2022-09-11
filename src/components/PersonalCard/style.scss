@@ -1,0 +1,52 @@
+.card {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+    
+    .card-logo {
+        img {
+            height: auto;
+        }
+    }
+
+    .card-body {
+        font-family: "SharpSansNo1-Semibold";
+        font-size: 20px;
+        color: #02363D;
+        line-height: 26px;
+        .person-job-title {
+            font-family: "SharpSansNo1-Medium";
+            font-size: 16px;
+            color: #021800;
+            line-height: 26px;
+        }
+    }
+
+    @media (min-width: 576px) {
+        grid-template-columns: 1fr 1fr;
+        .card-logo {
+            text-align: right;
+            img {
+                height: 5.5rem;
+            }
+        }
+        .card-body {
+            text-align:left
+        }
+    }
+
+    @media (min-width: 768px) {
+        .card-logo {
+
+        }
+    }
+    
+    @media (min-width: 992px) {
+        grid-template-columns: max-content 1fr;
+        .card-logo {
+            text-align: unset;
+        }
+    }
+}
