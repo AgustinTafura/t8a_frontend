@@ -10,12 +10,12 @@ import logoZendesk  from '../../assets/zendesk.jpg'
 const Brands = () => {
   return (
     <span className='brands'>
-        <img className="img-fluid" src={logoBitmap} alt="alternative"/>
-        <img className="img-fluid" src={logoAsobanca} alt="alternative"/>
-        <img className="img-fluid" src={logoIpbf} alt="alternative"/>
-        <img className="img-fluid" src={logoHt} alt="alternative"/>
-        <img className="img-fluid" src={logoEbanx} alt="alternative"/>
-        <img className="img-fluid" src={logoZendesk} alt="alternative"/>
+        <img className="" src={logoBitmap} alt="alternative"/>
+        <img className="" src={logoAsobanca} alt="alternative"/>
+        <img className="" src={logoIpbf} alt="alternative"/>
+        <img className="" src={logoHt} alt="alternative"/>
+        <img className="" src={logoEbanx} alt="alternative"/>
+        <img className="" src={logoZendesk} alt="alternative"/>
     </span>
   )
 }

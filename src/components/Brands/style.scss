@@ -1,7 +1,10 @@
 .brands {
 
+    max-width: 37.06rem;
+
     img {
         height: 1.63rem;
+        max-width: 7rem;
 
         &:not(:last-child) {
             margin-right: 0.8rem;
