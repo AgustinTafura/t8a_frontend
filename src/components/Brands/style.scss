@@ -1,0 +1,10 @@
+.brands {
+
+    img {
+        height: 1.63rem;
+
+        &:not(:last-child) {
+            margin-right: 0.8rem;
+        }
+    }
+}
