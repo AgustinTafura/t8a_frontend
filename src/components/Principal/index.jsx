@@ -1,4 +1,5 @@
 import Brands from '../Brands';
+import Form from '../Form';
 import PersonalCard from '../PersonalCard';
 import './style.scss';
 
@@ -44,18 +45,7 @@ const Principal = () => {
                     </section>
 
                     <section className='rigth'>
-                        <div>
-                            <div>
-                                ¡Inscríbete y reserva tu lugar ahora!
-                            </div>
-                            <form action="">
-                                <div className='form-group'>
-                                    <label htmlFor="name"> nombre </label>
-                                    <input type="text" name="name" id="name" />
-                                </div>
-                                
-                            </form>
-                        </div>
+                        <Form/>
                     </section>
 
                 </div>

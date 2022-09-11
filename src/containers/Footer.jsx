@@ -10,36 +10,36 @@ const Footer = () => {
                 
                 <a href="https://www.twitter.com.ar">
                   <span className="icon">
-                  <i class="fa-brands fa-twitter fa-stack-1x"></i>
+                  <i className="fa-brands fa-twitter fa-stack-1x"></i>
                   </span>
                 </a>
                 
                 <a href="https://www.facebook.com.ar">
                   <span className="icon">
-                      <i class="fab fa-facebook-f fa-stack-1x" aria-hidden="true"></i>
+                      <i className="fab fa-facebook-f fa-stack-1x" aria-hidden="true"></i>
                   </span>
                 </a>
                 
                 <a href="https://www.linkedin.com.ar">
                   <span className="icon">
-                      <i class="fab fa-linkedin-in fa-stack-1x" aria-hidden="true"></i>
+                      <i className="fab fa-linkedin-in fa-stack-1x" aria-hidden="true"></i>
                   </span>
                 </a>
                 <a href="https://www.youtube.com.ar">
                   <span className="icon">
-                      <i class="fab fa-youtube fa-stack-1x" aria-hidden="true"></i>
+                      <i className="fab fa-youtube fa-stack-1x" aria-hidden="true"></i>
                   </span>
                 </a>
                 
                 <a href="https://www.instagram.com.ar">
                   <span className="icon">
-                      <i class="fab fa-instagram fa-stack-1x" aria-hidden="true"></i>
+                      <i className="fab fa-instagram fa-stack-1x" aria-hidden="true"></i>
                   </span>
                 </a>
                 
                 <a href="https://www.snapchat.com.ar">
                   <span className="icon">
-                      <i class="fab fa-snapchat fa-stack-1x" aria-hidden="true"></i>
+                      <i className="fab fa-snapchat fa-stack-1x" aria-hidden="true"></i>
                   </span>
                 </a>
             </div>
