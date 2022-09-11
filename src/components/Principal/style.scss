@@ -8,4 +8,50 @@ main {
     color: #405457;
     letter-spacing: 0;
     line-height: 28px;
+
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+        & > * {
+            justify-self: center;
+        }
+    }
+
+    .text-content, .card-content {
+        margin-bottom: 2rem;
+    }
+
+    .card-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    section.left {
+        max-width: 35.31rem;
+    }
+
+    section.rigth {
+        max-width: 28.94rem;
+    }
+
+    @media (min-width: 576px) {
+        
+    }
+
+    @media (min-width: 768px) {
+    }
+    
+    @media (min-width: 992px) {
+        .row {
+            grid-template-columns: max-content 1fr;
+        }
+
+        .text-content {
+            text-align: initial;
+        }
+        
+    }
 }
