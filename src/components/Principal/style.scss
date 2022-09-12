@@ -12,7 +12,7 @@ main {
     .row {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 3rem;
 
         & > * {
             justify-self: center;
@@ -47,6 +47,7 @@ main {
     @media (min-width: 992px) {
         .row {
             grid-template-columns: max-content 1fr;
+            gap: 1rem;
         }
 
         .text-content {
