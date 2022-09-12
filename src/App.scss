@@ -67,7 +67,7 @@
     color: #405457;
     letter-spacing: 0;
     padding: 1rem;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
 
     @media (screen) {
       
@@ -83,7 +83,7 @@
       border-bottom: #cccccc;
       border-bottom-style: solid;
       border-bottom-width: 2px;
-      padding-top: 0.5rem;
+      margin-top: 0.8rem;
       
       div {
         padding-bottom: 1rem;
@@ -92,7 +92,7 @@
 
       @media (min-width: 576px) {
         justify-content: space-between;
-        padding-bottom: 1rem;
+        padding-bottom: 0.7rem;
         div {
           padding-bottom: unset;
         }
@@ -108,8 +108,8 @@
     .icon {
       background-color: #cccccc;
       border-radius: 50%;
-      height: 1rem;
-      width: 1rem;
+      height: 3rem;
+      width: 3rem;
       display: inline-block;
       padding: 1rem;
       position: relative;
