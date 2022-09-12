@@ -10,6 +10,7 @@ const Form = () => {
     const [attendees, setAttendees] = useState({})
     const [waiting, setWaiting] = useState(false)
     const [formSubmitted, setFormSubmitted] = useState(false)
+    const [error, setError] = useState(false)
     
     const handleChange = (e) => {
         const name = e.target.name
@@ -22,6 +23,7 @@ const Form = () => {
         const event = {
             attendees
         }
+        setError(false)
         updateEvent(event)
     }
 
@@ -39,6 +41,8 @@ const Form = () => {
             const {data, status} = error.response
             console.log(data, status)
             setFormSubmitted(false)
+            setWaiting(false)
+            setError(true)
         }
     }
 
@@ -81,13 +85,16 @@ const Form = () => {
                 <button className='submitter' type="submit" disabled={waiting || formSubmitted}>
                     {
                         formSubmitted ?
-                            '¡GRACIAS!'
+                        '¡GRACIAS!'
                         : waiting ?
                             <Loader/>
                         :   'Inscríbete'
                         
                     }
                 </button>
+                {
+                    error && <small style={{color:'red'}}>Hubo un error, intentalo más tarde</small>
+                }
             </div>
         </form>
     )
